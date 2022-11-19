@@ -1,0 +1,8 @@
+Statistical analysis 
+The PM2.5-mortality associations were analyzed using a two-stage time-series approach.
+The dlnm package was used to fit a distributed lag linear model (reference #1), and the “mvmeta” package to fit meta-analysis and meta- regression (reference #2).
+
+references
+1. Gasparrini, A., B. Armstrong, and M. G. Kenward. "Distributed Lag Non-Linear Models." R-gam. Stat Med 29, no. 21 (Sep 20 2010): 2224-34. https://doi.org/10.1002/sim.3940. http://www.ncbi.nlm.nih.gov/pubmed/20812303.
+2. Gasparrini, A., B. Armstrong, and M. G. Kenward. "Multivariate Meta-Analysis for Non-Linear and Other Multi-Parameter Associations." Stat Med 31, no. 29 (Dec 20 2012): 3821-39. https://doi.org/10.1002/sim.5471. http://www.ncbi.nlm.nih.gov/pubmed/22807043.
+
