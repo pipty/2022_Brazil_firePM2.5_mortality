@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Brazil wildfire-related PM2.5 mortality study overview</title>
+  <desc id="desc">A visual summary linking wildfire-related fine particulate matter exposure in Brazil to time-series mortality analysis and attributable burden estimation.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#083344"/>
+      <stop offset="52%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#A16207"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E5E7EB" stop-opacity="0.2"/>
+      <stop offset="48%" stop-color="#F8FAFC" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0.28"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#082F49" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" rx="0" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1200" height="330" fill="url(#sky)"/>
+  <path d="M0 260 C130 210 244 244 360 206 C510 156 600 232 720 190 C842 148 946 168 1200 90 L1200 330 L0 330 Z" fill="#ECFCCB" opacity="0.24"/>
+  <path d="M0 290 C160 256 284 292 430 250 C584 205 728 256 892 214 C1012 184 1104 198 1200 166 L1200 330 L0 330 Z" fill="#CCFBF1" opacity="0.26"/>
+
+  <g opacity="0.9">
+    <circle cx="154" cy="260" r="22" fill="#DC2626"/>
+    <path d="M153 188 C122 224 135 254 153 278 C179 240 198 216 153 188 Z" fill="#F97316"/>
+    <path d="M151 216 C136 238 142 258 154 274 C171 249 178 233 151 216 Z" fill="#FDE68A"/>
+    <path d="M125 282 C164 266 214 276 268 302 C206 294 157 296 125 282 Z" fill="#7F1D1D" opacity="0.38"/>
+  </g>
+
+  <path d="M184 174 C260 114 334 150 396 126 C470 98 516 122 570 154 C634 194 720 142 804 168 C890 194 970 166 1048 116 C1100 82 1150 92 1200 126 L1200 230 C1110 206 1034 234 948 244 C850 256 792 224 706 224 C600 224 548 258 456 228 C352 194 286 228 184 214 Z" fill="url(#smoke)"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="352" width="318" height="112" rx="14" fill="#FFFFFF"/>
+    <rect x="442" y="352" width="318" height="112" rx="14" fill="#FFFFFF"/>
+    <rect x="812" y="352" width="318" height="112" rx="14" fill="#FFFFFF"/>
+  </g>
+
+  <text x="72" y="72" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Wildfire-related PM2.5 and mortality in Brazil</text>
+  <text x="74" y="116" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#DFF7EF">Published Nature Communications study materials, analysis code, and figure data</text>
+
+  <text x="104" y="396" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#134E4A">Exposure</text>
+  <text x="104" y="426" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">Wildfire-related fine particulate</text>
+  <text x="104" y="450" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">matter across Brazil</text>
+
+  <text x="474" y="396" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#134E4A">Model</text>
+  <text x="474" y="426" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">Two-stage time-series analysis</text>
+  <text x="474" y="450" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">with DLNM and meta-analysis</text>
+
+  <text x="844" y="396" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#134E4A">Outcome</text>
+  <text x="844" y="426" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">Mortality risks and attributable</text>
+  <text x="844" y="450" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#334155">burden estimates</text>
+</svg>

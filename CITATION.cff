@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the published article."
+title: "Short-term exposure to wildfire-related PM2.5 increases mortality risks and burdens in Brazil"
+type: article
+authors:
+  - family-names: Ye
+    given-names: Tingting
+  - family-names: Xu
+    given-names: Rongbin
+  - family-names: Yue
+    given-names: Xu
+  - family-names: Chen
+    given-names: Gongbo
+  - family-names: Yu
+    given-names: Pei
+  - family-names: Coelho
+    given-names: Micheline
+  - family-names: Saldiva
+    given-names: Paulo H. N.
+  - family-names: Abramson
+    given-names: Michael J.
+  - family-names: Guo
+    given-names: Yuming
+  - family-names: Li
+    given-names: Shanshan
+journal: "Nature Communications"
+volume: "13"
+year: 2022
+url: "https://github.com/pipty/2022_Brazil_firePM2.5_mortality"
